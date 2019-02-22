@@ -6,7 +6,7 @@ from setuptools import setup
 setup(
     name='falcon-pagination-processor',
     description='Pagination middleware for falcon resources.',
-    version='0.0.1',
+    version='0.0.2',
     url='https://neetjn.github.io/falcon-pagination-processor/',
     author='John Nolette',
     author_email='john@neetgroup.net',
