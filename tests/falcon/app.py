@@ -1,5 +1,5 @@
 import falcon
-from falcon_pagination_middleware import PaginationProcessor
+from falcon_pagination_processor import PaginationProcessor
 from tests.falcon.resources import TestResourceCollection
 
 

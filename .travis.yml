@@ -11,7 +11,7 @@ before_install:
 install:
   - pipenv install --dev
 script:
-  - pipenv run pytest --cov=falcon_redis_cache tests
+  - pipenv run pytest --cov=falcon_pagination_processor tests
   - if [ "$TRAVIS_BRANCH" == "master" ]; then codecov; fi
 deploy:
   provider: pypi
