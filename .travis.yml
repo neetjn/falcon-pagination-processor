@@ -1,9 +1,7 @@
 dist: trusty
 language: python
-services:
-  - redis
 python:
-  # - '2.7'
+  #- '2.7'
   - '3.6'
 before_install:
   - pip install codecov
@@ -17,6 +15,6 @@ deploy:
   provider: pypi
   user: neetjn
   password:
-    secure: cr84admn/isBO/I6e/kHI2jpKpO/SX4UT59uyt2LyBL76fWI78T+x6CN7lsmz5mXWuYckv59H5lGxh3TW4s0fFPFuawjymFodLo5lEeqzDqvifv0AL86TM0+a627Z9ac4wbP0mBBQP95WlLkjxR93H6obom0+mfpMHsVrCa+E1egzPPcFT7JfVZeOe/jF5Q7ZbTbqTPk4y1xUOV6wXG7d5gObjk27dpRQK2b+hs6FNkx6vk2XFygwk/i52WOFg8oO0DAVeyw7yO6lS3noao69q4yYDRVZG3Iy9gyT+l359LzFlHzkdluC0D0jo+lHHh4AZV4Il74D2N06lEnroKm+20oO1hZkDOlrpxYQFDXTu2nrx/Knfpl/qTUkQpG0IrvKA9QtyAm2V3H885oOj5XMt1b8Jlpf1Vlu3L3Q8O6SK4fY4SJIidj994pc+uX3CO0rTtFl3bFZ6omjgw68WSaPQfPs7j3Tw7phG6hQ+u7XnJFk4/GzFLkQwzdJydzHf51pctUEklWOmVfI8eOimLwEwKPAycZQRj9uP2QfX9YVK1Mr+wQEe0hywt8JZfhZwJiBd+/YIhhJfUprrfi4vb9z7kX0Ksh8W/gb+eyE8G/Fp5FpRN7OFbBLCs+RC3oeTscWvSGJM9I/ZbWuVRkpeWaJTRsAN5zyS8MOwiF1GRUHC0=
+    secure: EgtIN1gktMh3pk72NK2SY/sOqDzSb/vSagCZw7IMqIQMS5bePbK7rTN9cLp5I6FsAem7210+kJ95pQibNZfKGPYhD0wpPLboScyJpXNOL3LybRJ2sgSxEwmDI77XUHfnLrYd8wvxzGljNEaAafF6rRscksIkPR4CK1SCiWVU38MW3F47meS0NUgSDKRpnhlBgW/ee7RhFwOC7m8IgAreR5fETG5Zcg2UN7z38PGLwiRCD8lbr2w5qlXqBuTa05cXPBoEMXpUGqQ9eRl1NPZJTgXrC7B2YHMATyDheEkaeu9j7wFPBkkNJOpnv2S/qW9JA8wTbyzYcSsCCB0jGIf1OAHWR75PcN+lBi3CQK/kepSbVj1SIHJXXpu8CBS1eO0TkEvNJvJ91Ql5bnIYt6loW5yLa/4tFdWhtyP4kHIdSLPcSujr/SDXUuVxsKqCGk4uvi5T7rfYJhfzGVy9rmiBsMKbQo8uROUb9ozbr2ugKqh+98+Y8SYltCUvwo7QcX3jZdHzBcpFcT+JGSrgFbRu/us7IK4mDBD7wH96tDhVxDRYk74kyqvEtuwXade2fJ11MwEjjiKyZ/XUxQ5UaOvWyWcMD4UbFItAw4ts1bsyMCEsO3JfMwIIDtrDkD9n1nkPFK0p0ja+CDkfvI0xnV+Zkw9DJBLViNBRJP3UpqJpdaA=
   on:
     branch: master

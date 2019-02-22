@@ -34,9 +34,6 @@ api = falcon.API(middleware=[PaginationProcessor()])
 Pull pagination details from requests like so:
 
 ```python
-from falcon_redis_cache.resource import CacheCompaitableResource
-
-
 def get_resources(start, count):
     """Get paginated list of resources"""
     if start and count:
